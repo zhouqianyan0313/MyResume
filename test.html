@@ -15,49 +15,86 @@
     
     <div id="container">
     	<ul>
-         <li class="bar"><a href="#">基本信息</a></li>
-         <li class="bar"><a href="#">个人技能</a></li>
-         <li class="bar"><a href="#">实践经验</a></li>
-         <li class="bar"><a href="#">自我评价</a></li>   
+         <li class="bar">基本信息</li>
+         <li class="bar">个人技能</li>
+         <li class="bar">实践经验</li>
+         <li class="bar">自我评价</li>   
         </ul>
         
         <div id="information">
-        <table id="basis">
+        <div id="basis">
+        <table>
             <tr>
-                <td class="key">姓名</td>
-                <td class="value">周巧妍</td>
-                <td class="key">学校</td>
-                <td class="value">哈尔滨工业大学</td>
+                <td>姓名</td>
+                <td>周巧妍</td>
+                <td>学校</td>
+                <td>哈尔滨工业大学</td>
                 <td rowspan="6"><img src="zqy.jpg"></td>
             </tr>
             <tr>
-                <td class="key">性别</td>
-                <td class="value">女</td>
-                <td class="key">专业</td>
-                <td class="value">计算机科学与技术</td>
+                <td>性别</td>
+                <td>女</td>
+                <td>专业</td>
+                <td>计算机科学与技术</td>
             </tr>
             <tr>
-                <td class="key">家庭所在地</td>
-                <td class="value">浙江省宁波市</td>
-                <td class="key">教育程度</td>
-                <td class="value">本科（2017届）</td>
+                <td>家庭所在地</td>
+                <td>浙江省宁波市</td>
+                <td>教育程度</td>
+                <td>本科（2017届）</td>
             </tr>
             <tr>
-                <td class="key">手机</td>
-                <td class="value">13091710687</td>
-                <td class="key">邮箱</td>
-                <td class="value">zhouqiaoyan0313@163.com</td>
+                <td>手机</td>
+                <td>13091710687</td>
+                <td>邮箱</td>
+                <td>zhouqiaoyan0313@163.com</td>
             </tr>
             <tr>
-                <td class="key">git地址</td>
+                <td>git地址</td>
                 <td>https://github.com/zhouqianyan0313/</td>
             </tr>
             <tr>
-                <td class="key">应聘职位</td>
+                <td>应聘职位</td>
                 <td>前端工程师</td>
             </tr>
 
         </table>
+        </div>
+
+        <div id="project">
+        <table>
+            <tr>
+                <td>时间</td>
+                <td>项目名称</td>
+                <td>职责</td>
+                <td>项目简介</td>
+            </tr>
+            <tr>
+                <td>2016/7/4-2016/7/21</td>
+                <td>全国公交查询安卓APP</td>
+                <td>组长，负责分工和整合，实现用户管理模块及修改demo实现所需功能</td>
+                <td>主要利用聚合数据提供的接口和高德地图的demo，完成天气查询、公交线路查询、公交路线查询、周边查询和公交站点查询功能。利用SQLite存储用户，利用sharepreferences实现自动登陆功能。本项目由于时间短，不涉及服务器端。
+https://github.com/zhouqianyan0313/bus_android
+</td>
+            </tr>
+            <tr>
+                <td>2016/1-2016/2</td>
+                <td>电动滑板宣传</td>
+                <td>全权负责</td>
+                <td>使用Django建立宣传网站，展示活动内容（包括图片和文字介绍）和公司及主要成员基本信息，并提供留言功能。管理员可以通过admin进行管理。
+https://github.com/zhouqianyan0313/huabanzqy
+</td>
+            </tr>
+            <tr>
+                <td>2015/10-2015/12</td>
+                <td>教师信息管理系统</td>
+                <td>主要负责设计整体框架（models等）和大部分功能的实现，测试时发现的问题由我解决。</td>
+                <td>使用Django建立教师信息管理系统，主要实现教师检索、推荐和预约功能。教师登陆时能收到学生的预约信息并有权修改。
+https://github.com/zhouqianyan0313/teacherzqy
+</td>
+            </tr>
+        </table>
+        </div>
 
         </div>
 
