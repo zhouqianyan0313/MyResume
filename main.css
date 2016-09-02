@@ -41,6 +41,7 @@ td img{
     
 }
 #self-skill{
+    display: none;
     margin: 3%;
 }
 #self-skill td{
@@ -90,6 +91,7 @@ td img{
 }
 #self-evaluation{
     margin: 3%;
+    display: none;
 }
 #self-evaluation p{
     text-indent: 4em;
